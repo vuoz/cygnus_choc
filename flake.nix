@@ -25,7 +25,7 @@
 
 
 
-        zephyrDepsHash = "sha256-SHiCGErcstMH9EbvbQROXIhxFEbMf3AungYu5YvqMEg=";
+        zephyrDepsHash = "";
 
 
 
@@ -41,7 +41,7 @@
           src = nixpkgs.lib.sourceFilesBySuffices self [ ".board" ".cmake" ".conf" ".defconfig" ".dts" ".dtsi" ".h" ".json" ".keymap" ".overlay" ".shield" ".yaml" ".yml" "_defconfig" ];
           board = "seeeduino_xiao_ble";
           shield = "settings_reset";
-          zephyrDepsHash = "sha256-SHiCGErcstMH9EbvbQROXIhxFEbMf3AungYu5YvqMEg=";
+          zephyrDepsHash = "";
 
           meta = {
             description = "ZMK settings reset firmware";
